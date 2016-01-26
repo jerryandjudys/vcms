@@ -15,7 +15,7 @@
         		http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<!-- 自动扫描controller包下的所有类，使其认为spring mvc的控制器 -->
-	<context:component-scan base-package="com.mingsoft.**.controller" />
+	<context:component-scan base-package="com.mandala.**.controller" />
 	<mvc:annotation-driven conversion-service="conversionService" />
 	<bean id="conversionService"
 		class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
